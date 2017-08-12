@@ -10,7 +10,6 @@
 		EA1EE2E51F3EBF31000A6B87 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EE2E21F3EBF31000A6B87 /* AFNetworking.framework */; };
 		EA1EE2E61F3EBF31000A6B87 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EE2E31F3EBF31000A6B87 /* Charts.framework */; };
 		EA1EE2E71F3EBF31000A6B87 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1EE2E41F3EBF31000A6B87 /* MBProgressHUD.framework */; };
-		EA1FE4501F3EC38F00B55989 /* Readme.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1FE44F1F3EC38F00B55989 /* Readme.m */; };
 		EA641B6C1F3DD698008C8E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA641B6B1F3DD698008C8E5B /* main.m */; };
 		EA641B6F1F3DD698008C8E5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA641B6E1F3DD698008C8E5B /* AppDelegate.m */; };
 		EA641B721F3DD698008C8E5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA641B711F3DD698008C8E5B /* ViewController.m */; };
@@ -23,7 +22,6 @@
 		EA1EE2E21F3EBF31000A6B87 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
 		EA1EE2E31F3EBF31000A6B87 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = Carthage/Build/iOS/Charts.framework; sourceTree = "<group>"; };
 		EA1EE2E41F3EBF31000A6B87 /* MBProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MBProgressHUD.framework; path = Carthage/Build/iOS/MBProgressHUD.framework; sourceTree = "<group>"; };
-		EA1FE44F1F3EC38F00B55989 /* Readme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Readme.m; sourceTree = "<group>"; };
 		EA641B671F3DD698008C8E5B /* CarthageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA641B6B1F3DD698008C8E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA641B6D1F3DD698008C8E5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 		EA641B691F3DD698008C8E5B /* CarthageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				EA1FE44F1F3EC38F00B55989 /* Readme.m */,
 				EA641B6D1F3DD698008C8E5B /* AppDelegate.h */,
 				EA641B6E1F3DD698008C8E5B /* AppDelegate.m */,
 				EA641B701F3DD698008C8E5B /* ViewController.h */,
@@ -196,7 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA641B721F3DD698008C8E5B /* ViewController.m in Sources */,
-				EA1FE4501F3EC38F00B55989 /* Readme.m in Sources */,
 				EA641B6F1F3DD698008C8E5B /* AppDelegate.m in Sources */,
 				EA641B6C1F3DD698008C8E5B /* main.m in Sources */,
 			);
